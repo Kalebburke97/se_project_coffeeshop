@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Coffee Shop Landing Page" />
+    <title>Coffee Shop</title>
     <meta name="author" content="Kaleb Burke" />
     <meta name="keywords" content="HTML, CSS" />
     <link rel="stylesheet" href="./pages/index.css" />
@@ -16,12 +16,55 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Coffee Shop</title>
   </head>
-
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Peaks Coffee Shop Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="">Book a Table</a>
+            </li>
+            <li>
+              <a class="nav__link" href="">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="">Content</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty Coffee</span>in the Trple
+          Peaks Library
+        </h1>
+        <p class="header__descriptioon">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help ypu get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Coffee shop ilustratiuon"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
         <section class="recipes"></section>
         <section class="reservation"></section>
